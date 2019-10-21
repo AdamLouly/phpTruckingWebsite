@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "ANM";
-$password = "Jamal1963@";
-$dbname = "ANMtransport";
+$username = "root";
+$password = "root";
+$dbname = "truck";
 $output = array();
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
